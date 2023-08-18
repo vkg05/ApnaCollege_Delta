@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    color: orangered;
+    margin: 20px 0 0 10px;
+}
+span {
+    color: rgb(10, 94, 10);
+}
+h1 {
+    margin: 30px 0 0 10px;
+}
+.card {
+    padding: 7px;
+    width: 275px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+h3 {
+    margin-block: 10px;
+}
+p {
+    margin-bottom: 10px;
+}
+#pets {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+@media (max-width:576px) {
+    #pets {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}

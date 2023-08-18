@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia;
+}
+p {
+    color: #964b00;
+    line-height: 30px;
+}
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+a {
+    color: rgb(0, 256, 0);
+    text-decoration: none;
+}
+button {
+    background-color: white;
+    color: blueviolet;
+}
+textarea {
+    color: #000000;
+}

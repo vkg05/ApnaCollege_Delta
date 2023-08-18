@@ -1,0 +1,11 @@
+h1 {
+    background-color: #000000;
+    /* color: #ffffff; */
+    color: rgb(255, 255, 255);
+}
+h2 {
+    /* background-color: rgb(256, 256, 0); */
+    background-color: #ffff00;
+    /* color: rgb(0, 0, 256); */
+    color: #0000ff;
+}

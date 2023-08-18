@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Grid System</h2>
+        <div class="row">
+            <div class="col-8 bg-success">One</div>
+            <div class="col bg-danger">Two</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2 bg-success">One</div>
+            <div class="col-md-4 bg-danger">Two</div>
+            <div class="col-md-6 bg-primary">Three</div>
+        </div>
+        <br>
+        <div class="row align-items-start">
+            <div class="col-md-6 col-xl-4 bg-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ratione voluptates, fuga veritatis optio accusamus eius nesciunt itaque non laborum consequatur. Optio facilis harum recusandae.</div>
+            <div class="col-md-6 col-xl-4 bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero itaque velit.</div>
+            <div class="col-md-6 col-xl-4 bg-success">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ipsum quibusdam libero adipisci explicabo? Quidem molestias vero necessitatibus incidunt est quasi magni voluptatem? Molestiae animi ab voluptatem, excepturi fugit voluptate repellendus dolor itaque odit.</div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- form -->
+    <div class="container">
+        <h2>Form Demo</h2>
+        <form>
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label class="form-label"for="email">Email</label>
+                    <input 
+                        class="form-control" 
+                        type="text" 
+                        id="email" 
+                        placeholder="Email"
+                    >
+                </div>
+
+                <div class="mb-3 col-md-6">
+                    <label class="form-label"for="password">Password</label>
+                    <input 
+                        class="form-control" 
+                        type="password" 
+                        id="password" 
+                        placeholder="Email"
+                    >
+                </div>
+            </div>
+            
+            <label class="form-label"for="address">Address</label>
+            <input 
+                class="form-control" 
+                type="text" 
+                id="address" 
+                placeholder="Address"
+            >
+            <div class="mb-3">
+                <select class="form-select" name="" id="">
+                    <option value="">Select Something</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <!-- checkbox -->
+            <div class="normal mb-3">
+                <input type="checkbox" id="agree">
+                <label for="agree">Agree</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" id="agreebs" class="form-check-input">
+                <label for="agreebs" class="form-check-label">Agree</label>
+            </div>
+
+            <!-- radio -->
+            <div class="normal mb-3">
+                <input type="checkbox" id="agree">
+                <label for="agree">Agree</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="radio" id="radiobs" class="form-check-input">
+                <label for="radiobs" class="form-check-label">Yes/No</label>
+            </div>
+
+            <!-- Switch -->
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+              </div>
+
+        </form>
+
+    </div>
+
+
+    
+
+
+
+
+
+    <!-- JavaScript Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

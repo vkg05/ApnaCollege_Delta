@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="action.php">
+        <h2>Registration Form</h2>
+        <input type="text" placeholder="First Name" name="fname">
+        <input type="text" placeholder="Last Name" name="lname">
+        <br>
+        <label for="gender">Please select gender</label> 
+        <select name="gender" id="Gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <label for="terms">Do you agree to all terms of service? </label>
+        <input type="checkbox" id="terms" name="terms" checked>
+        <label for="">Yes, I agree</label><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

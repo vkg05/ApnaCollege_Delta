@@ -1,0 +1,30 @@
+/* ans-1 */
+/* h1 {
+    color: pink;
+}
+#greet {
+    color: yellow;
+}
+.myClass {
+    color: brown;
+} */
+/* ans-2 */
+/* div p {
+    background-color: black;
+}
+.para {
+    background-color: blue;
+}
+p {
+    background-color: green;
+} */
+/* ans-3 */
+div.greetDiv .greet {
+    color: green;
+}
+.greetDiv p.greet {
+    color: blue;
+}
+.greetDiv .greet {
+    color: red;
+}

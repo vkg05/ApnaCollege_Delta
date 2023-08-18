@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- favicon -->
+    <link rel="icon" href="./assests/logo.png">
+
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS Style sheet link -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="main">
+
+        <!-- Side bar menu -->
+
+        <div class="sidebar hide">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library ">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assests/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>  
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcastes to follow</p>  
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+
+        <div class="main-content">
+            <div class="sticky-nav">
+
+                <div class="sticky-nav-icons">
+                    <img src="./assests/backward_icon.png" class="nav-icon" alt="backword icon">
+                    <img src="./assests/forward_icon.png" class="hide nav-icon" alt="forward icon">
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge dark-badge nav-item"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item nav-icon"></i>
+                </div>
+            </div>
+
+            <!-- Cards -->
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assests/card1img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assests/card2img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Artist - Darshan Rawal 22 Jun 2023...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assests/card3img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Artist - Ratah Fateh Ali Khan Jun 2023...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assests/card4img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Alter Ego Naa Reddy</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assests/card3img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Artist - Ratah Fateh Ali Khan Jun 2023...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assests/card2img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Artist - Darshan Rawal 22 Jun 2023...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assests/card4img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Alter Ego Naa Reddy</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assests/card5img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top Songs Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assests/card4img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Alter Ego Naa Reddy</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+    
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assests/card6img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top Songs India</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assests/card5img.jpeg" class="card-img" alt="">
+                        <p class="card-title">Top Songs Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <!-- music player bottom  -->
+        <div class="music-player">
+
+            <div class="album hide">
+                <img src="./Homework assests/album_picture.jpeg" class="album-image album-hover" alt="album_picture">
+                
+                <div class="album-details">
+                    <span class="album-title album-hover">Tere Laag</span>
+                    <span class="album-info album-hover"> Ajit Kale</span>
+                </div>
+                
+                <img src="./Homework assests/album_icon1.png" class="album-icon" alt="icon">
+                <img src="./Homework assests/album_icon2.png" class="album-icon" alt="icon">
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assests/player_icon1.png" class="player-control-icon" alt="button">
+                    <img src="./assests/player_icon2.png" class="player-control-icon" alt="button">
+                    <img src="./assests/player_icon3.png" class="player-control-icon play-button" alt="button" >
+                    <img src="./assests/player_icon4.png" class="player-control-icon" alt="button">
+                    <img src="./assests/player_icon5.png" class="player-control-icon" alt="button">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:17</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">03:47</span>
+                </div>
+            </div>
+
+            <div class="controls hide">
+                <img src="./Homework assests/controls_icon1.png" alt="" class="controls-icons album-hover">
+                <img src="./Homework assests/controld_icon2.png" alt="" class="controls-icons album-hover">
+                <img src="./Homework assests/controls_icon3.png" alt="" class="controls-icons album-hover" style="height: 1.2rem; width: 1.2rem;">
+                <img src="./Homework assests/controls_icon4.png" alt="" class="controls-icons album-hover" style="height: 1rem; width: 1rem;">
+                <img src="./Homework assests/controls_icon5.png" alt="" class="controls-icons album-hover">
+                <input type="range" min="0" max="100" class="volume-bar" step="1">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

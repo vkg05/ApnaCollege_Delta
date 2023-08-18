@@ -1,0 +1,9 @@
+h2 {
+    display: inline;
+    background-color: aqua;
+}
+span {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}

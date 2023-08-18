@@ -1,0 +1,396 @@
+:root{
+    --red : #E50914;
+    --white: #fff;
+    --black: #000f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+    height: 100vh;
+}
+
+/* header page */
+header {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./Assests/header-image.png);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 5rem;
+}
+
+.header-top img {
+    width: 120px;
+}
+
+.lang-btn {
+    border: 0;
+    background: transparent;
+    color: white;
+    padding: 0.25rem 0.6rem;
+    font-size: 14px;
+    border: 0.5px solid rgba(255, 255, 255, 0.521);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.lang-btn i {
+    margin-inline: 0.25rem;
+}
+
+.sign-btn {
+    border: 0;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.sign-btn:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.header-content {
+    width: 75%;    
+    margin: auto;
+    margin-block: 6rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header-heading h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.header-heading h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-block: 0.5rem;
+}
+
+.header-form p {
+    font-size: 1.25rem;
+    margin-block: 1rem 2.5rem;
+}
+
+.email_btn {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.input-email {
+    appearance: none;
+    border: 0;
+    background-color: transparent;
+    border: 1px solid rgba(247, 73, 73, 0.785);
+    border-radius: 0.25rem;
+    color: var(--white);
+    padding: 1rem 6rem;
+}
+
+.get-btn {
+    border: 0;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1.25rem;
+    margin-left: 0.75rem;
+}
+
+.get-btn:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+hr {
+    border: 0.25rem solid rgb(41, 39, 39) ;
+}
+
+/* features */
+
+.features {
+    height: 100%;
+    background-color: var(--black);
+}
+
+.feature-1 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-block: 8rem;
+}
+
+.feat-img img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.feat-img img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+.feat-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.feat-text p {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.last {
+    flex-direction: row-reverse;
+}
+
+.last-feature-img {
+    width: 100%;
+    margin-inline: 2rem;
+}
+
+.question{
+    width: 80%;
+    margin-inline: auto;
+
+
+}
+.ques {
+    width: 100%;
+    height: 100%;
+    padding: 6rem 0 2rem 0;
+}
+.ques h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.click-ques {
+    background-color: rgb(47, 49, 49);
+    padding: 1.5rem ;
+    margin-bottom: 0.5rem;
+    border-radius: 0.125rem;
+}
+
+details {
+    font-size: 1.5rem;
+}
+
+details p {
+    margin-block-start: 1.5rem;
+}
+
+
+.click-ques:hover {
+    background-color: rgb(71, 76, 76);
+    cursor: pointer;
+}
+
+.question .header-form {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+    
+}
+
+
+/* ---------------Footer-------------- */
+
+footer {
+    background-color: var(--black);
+    height: 100%;
+    margin-bottom: 6rem;
+}
+
+.footer-last {
+    width: 70%;
+    margin: auto;
+    padding-block: 1rem;
+    font-size: 0.85rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 1.5rem 2rem;
+
+}
+
+.st-col p{
+    margin-block: 1rem;
+}
+
+.footer-ques {
+    margin-top: 3rem;
+}
+
+.footer-ques p {
+    padding-block: 1rem;
+    color: rgb(218, 218, 218);
+}
+
+
+.st-col p a, .footer-ques p a {
+    color: rgb(218, 218, 218);
+}
+
+.language {
+    margin-block: 1rem;
+}
+
+.footer-end {
+    margin-block: 1rem 6rem;
+
+}
+
+.eng-lang {
+    background: transparent;
+    color: white;
+    background-color: black;
+    border: 0;
+    border: 0.3px solid rgb(194, 186, 186);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+}
+
+.eng-lang i {
+    margin-inline: 0.25rem;
+}
+/* ------------Responsive------------ */
+
+@media screen and (max-width: 768px) {
+    .header-top img {
+        width: 110px;
+    }
+    .lang-btn span {
+        display: none;
+    }
+    .email_btn {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    .header-heading h1 {
+        font-size: 2.25rem;
+    }
+    .header-heading h3 {
+        font-size: 1.75rem;
+    }
+
+    /* feature-1 */
+    .feat-text h2 {
+        font-size: 2.25rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .feat-text p {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    .feature-1 {
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .ques h2 {
+        font-size: 2.25rem;
+    }
+
+    details {
+        font-size: 1.25rem;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .header-top img {
+        width: 90px;
+    }
+
+    .lang-btn span {
+        display: none;
+    }
+
+    .lang-btn-last span {
+        display: show;
+    }
+
+    .input-email {
+        padding-inline: 1rem 2.5rem;
+    }
+    .email_btn {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+
+    .get-btn {
+        font-size: 1rem;
+    }
+    .header-heading h1 {
+        font-size: 1.75rem;
+    }
+    .header-heading h3 {
+        font-size: 1.25rem;
+    }
+
+    /* feature-1 */
+    .feat-text h2 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    .feat-text p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .feature-1 {
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .ques h2 {
+        font-size: 1.75rem;
+    }
+
+    details {
+        font-size: 1rem;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        align-items: start;
+    }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- card -->
+    <div class="card" style="width: 18rem;">
+        <img src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp" class="card-img-top" alt="profile">
+        <div class="card-body">
+        <h5 class="card-title">HR Manager</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Know More</a>
+        </div>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+        <h2>Bootstrap Demo</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima dolores in. Ab alias harum aliquid incidunt facilis ex, temporibus autem? Ipsa praesentium voluptas ab recusandae doloremque vitae ratione magni, soluta cupiditate nobis quis suscipit omnis doloribus nihil, sint debitis nesciunt fugiat et adipisci assumenda incidunt molestias! Culpa, adipisci voluptates?
+        </p>
+    </div>
+    <br><br><hr>
+    <!-- Button -->
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning btn-lg">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+    <a href="#" class="btn btn-dark">google</a>
+
+    <button>Sign Up</button>
+    <button class="btn btn-success">Sign Up</button>
+    <br><br><hr>
+
+    <!-- Badges -->
+
+    <h3>Notification <span class="badge bg-secondary">new</span></h3>
+    <br>
+    <button type="button" class="btn btn-primary">
+        Followers <span class="badge text-bg-dark">100+</span>
+    </button>
+    <br><br>
+    <button type="button" class="btn btn-primary position-relative">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          99+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+    </button>
+    <br><br><hr>
+    <!-- Alert -->
+
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+    <div id="liveAlertPlaceholder"></div>
+
+    <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Congralution!</strong> You score is 50/50.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <br><br><hr>
+
+    <!-- button group -->
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">One</button>
+        <button type="button" class="btn btn-secondary">Two</button>
+        <button type="button" class="btn btn-danger">Three</button>
+    </div>
+    
+
+
+
+
+
+    
+
+    <!-- JavaScript Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

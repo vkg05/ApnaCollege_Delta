@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+}
+.container {
+    background-color: yellow;
+}
+.btn-danger {
+    background-color: red;
+}

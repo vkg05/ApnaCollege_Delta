@@ -1,0 +1,19 @@
+h1 {
+    text-align:  center;
+    text-decoration: red underline;
+    letter-spacing: 5px;
+}
+h2 {
+    font-weight: normal;
+}
+p {
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 1.5;
+}
+h3 {
+    text-decoration: blue line-through;
+}
+a {
+    text-decoration: none;
+}

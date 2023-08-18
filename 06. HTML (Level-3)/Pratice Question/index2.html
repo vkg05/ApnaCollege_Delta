@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qs2. Form</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="Name">
+
+        <br><br>
+        <label for="sex">Sex: </label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label>
+
+        <br><br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="india">India</option>
+            <option value="USA">USA</option>
+            <option value="japan">Japan</option>
+            <option value="nepal">Nepal</option>
+        </select>
+
+        <br><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="40" rows="4"></textarea>
+        
+        <br><br>
+        <input type="checkbox" name="subscribe?" id="subscribe">
+        <label for="subscribe">Subscribe?</label>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
