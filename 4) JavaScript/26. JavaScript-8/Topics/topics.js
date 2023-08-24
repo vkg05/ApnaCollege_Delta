@@ -103,3 +103,56 @@ console.log(sum(2)); //5
 // spread 
 let array = [1,2,3,4,5,6];
 let  = Math.min(array);
+
+// -------------------------------------------
+
+// spread with array literals
+let arr2 = [1,2,3,4,5];
+let newArr = [...arr2];
+
+let chars = [..."hello"];
+
+// ------------------------------------------
+
+// spread with object literals
+const data = {
+    email : "ironman@gamil.com",
+    password: "abcd",
+};
+const dataCopy = {...data, id:123};
+
+// -------------------------------------------
+
+// rest
+// function sum(...args){
+//     //arguments
+//     for(let i=0; i<args.length; i++){
+//         console.log("you gave us:", args[i]);
+//     }
+// }
+// function min() {
+//     console.log(arguments);
+// }
+function sum(...args) {
+    return args.reduce((add, el) => add + el);
+}
+
+// ----------------------------------------------
+
+// destructuring
+let name = ["tony", "bruce", "steve", "peter"];
+let [winner, runnerup] = name;
+console.log(winner, runnerup);
+
+// destructuring with object
+const students = {
+    name: "Karan",
+    age: 14,
+    class: 9,
+    subjects : ["hindi", "english", "math"],
+    username : "Karan@123",
+    password : "abcd"
+};
+
+let {username:user, password:secret, city:place = "Mumbai"} = students;
+
