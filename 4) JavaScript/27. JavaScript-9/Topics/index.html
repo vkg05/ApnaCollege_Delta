@@ -1,53 +1,128 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Manipulation</title>
+    <title>JS-9 (DOM-Document Object Model)</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div>
-        <h1>Spider Man</h1>
-        <img src="assests/Spider-Man.png" id="mainImg" alt="Spider-Man">
-        <h2>About</h2>
-        <p><b>Spider-Man</b> is a superhero appearing in American comic books published by <a href="https://en.wikipedia.org/wiki/Marvel_Comics">Marvel Comics</a>. 
-            Created by writer-editor <b>Stan Lee</b> and artist <b>Steve Ditko</b>, he first appeared in the anthology comic book <a href="https://en.wikipedia.org/wiki/Amazing_Fantasy">Amazing Fantasy</a> 
-            #15 (August 1962) in the <a href="https://en.wikipedia.org/wiki/Silver_Age_of_Comic_Books">Silver age of Comic Books</a>. He has been featured in comic books, television shows, films, video games, novels.</p>
-    </div>
 
-    <div class="pubInfo">
-        <h4>Publication Info</h4>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
         <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Marvel_Comics">Publisher</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Amazing_Fantasy">First Appearance</a></li>
-            <li>Created by
-                <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Stan_Lee">Stan Lee</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Steve_Ditko">Steve Ditko</a></li>
-                </ul>
-            </li>
+            <a href="#laptop">
+                <li>Electronics</li>
+            </a>
+            <a href="#clothing">
+                <li>Clothing</li>
+            </a>
+            <a href="#home">
+                <li>Home</li>
+            </a>
+        </ul>
+    </header>
+    <div class="electronics">
+        <div class="laptop" id="laptop">
+            <h2>Electronics</h2>
+            <h3>Laptop</h3>
+            <p><b>Description: </b>High-performance laptop with the latest processor and ample storage.</p>
+            <p><b>Price: </b>$999.99</p>
+            <p><b>Availability: </b> In stock</p>
+            <img width="250px" src="https://qph.cf2.quoracdn.net/main-qimg-60a3ab10b6291e23a3502e72eb57cdde"
+                alt="laptop image">
+            <br>
+            <a href="#">View Details</a>
+            <ul>
+                <li><b>Brand: </b>XYZ Electronics</li>
+                <li><b>Screen Size: </b>15.6 inches</li>
+                <li><b>RAM: </b>8GB</li>
+                <li><b>Storage: </b>512GB SSD</li>
+            </ul>
+        </div>
+        <div class="smartphone">
+            <h3>Smartphone</h3>
+            <p><b>Description: </b>Feature-rich smartphone with a high-resolution display and advanced camera.</p>
+            <p><b>Price: </b>$699.99</p>
+            <p><b>Availability: </b> Out of stock</p>
+            <img width="200px"
+                src="https://image.similarpng.com/very-thumbnail/2020/09/Iphone-xr-yellow-mobile-phone-on-transparent-background-PNG.png"
+                alt="mobile image">
+            <br>
+            <a href="#">View Details</a>
+            <ul>
+                <li><b>Brand: </b>ABC Mobile</li>
+                <li><b>Screen Size: </b>6.5 inches</li>
+                <li><b>RAM: </b>8GB</li>
+                <li><b>Storage: </b>512GB SSD</li>
+            </ul>
+        </div>
+    </div>
+    <div class="clothing" id="clothing">
+        <div class="t-shirt">
+            <h2>Clothing</h2>
+            <h3>T-shirt</h3>
+            <p><b>Description: </b>Casual and comfortable t-shirt made from premium quality cotton.</p>
+            <p><b>Price: </b>$19.99</p>
+            <p><b>Availability: </b> In stock</p>
+            <img width="250px"
+                src="https://e7.pngegg.com/pngimages/3/819/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail.png"
+                alt="laptop image">
+            <br>
+            <a href="#">View Details</a>
+            <ul>
+                <li><b>Brand: </b>Fashion Apparel</li>
+                <li><b>Color: </b>Red</li>
+                <li><b>Size: </b>S,M,L</li>
+                <li><b>Material: </b>100% Cotton</li>
+            </ul>
+        </div>
+        <div class="jeans">
+            <h3>Jeans</h3>
+            <p><b>Description: </b>Classic jeans with a slim fit and stylish design.</p>
+            <p><b>Price: </b>$49.99</p>
+            <p><b>Availability: </b> In stock</p>
+            <img width="200px"
+                src="https://e7.pngegg.com/pngimages/907/523/png-clipart-pepe-jeans-denim-mustang-pocket-men-s-jeans-thumbnail.png"
+                alt="jeans image">
+            <br>
+            <a href="#">View Details</a>
+            <ul>
+                <li><b>Brand: </b>Denim Co.</li>
+                <li><b>Color: </b>Blue</li>
+                <li><b>Size: </b>30,32,34</li>
+                <li><b>Material: </b>Denim</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="home" id="home">
+        <h2>Home</h2>
+        <h3>Table Lamp</h3>
+        <p><b>Description: </b>Modern and stylish table lamp to enhance your home decor.</p>
+        <p><b>Price: </b>$39.99</p>
+        <p><b>Availability: </b> In stock</p>
+        <img width="200px" src="https://www.pngmart.com/files/7/Ceramic-Lamp-PNG-File.png" alt="lamp image">
+        <br>
+        <a href="#">View Details</a>
+        <ul>
+            <li><b>Brand: </b>Home Essentials</li>
+            <li><b>Color: </b>White</li>
+            <li><b>Dimensions: </b>12 inches (height)</li>
+            <li><b>Material: </b>Ceramic, Metal</li>
         </ul>
     </div>
 
-    <div class="creationDev">
-        <h2>Creation And Development</h2>
-        <p id="description">
-            In 1962, with the success of the Fantastic Four, Marvel Comics editor and head writer Stan Lee was
-            casting for a new superhero idea. He said the idea for Spider-Man arose from a surge in teenage 
-            demand for comic books and the desire to create a character with whom teens could identify.[15]:
-             1  As with Fantastic Four, Lee saw Spider-Man as an opportunity to "get out of his system" what he 
-            felt was missing in comic books.[16] In his autobiography, Lee cites the non-superhuman pulp magazine
-            crime fighter the Spider as a great influence,[14]: 130 [17] and in a multitude of print and video 
-            interviews, Lee stated he was further inspired by seeing a spider climb up a wall—adding in his 
-            autobiography that he has told that story.
-        </p>
-        <div class="images">
-            <img src="assests/Spider-Man.png" alt="Man">
-            <img src="assests/Amazing_Fantasy.jpg" alt="Fantasy">
-            <img src="assests/Amazing-spiderman.jpg" alt="Spiderman">
-        </div>
-    </div>
 
-    <script src="topics.js"></script>
+
+
+
+
+
+
+
+    <script src="topic.js"></script>
 </body>
+
 </html>
