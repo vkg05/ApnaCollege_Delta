@@ -3,17 +3,17 @@
 }
 
 .pubInfo{
-    border: 1px solid rgb(145, 145, 145);
+    border: 1px solid rgb(115, 114, 114);
     display: inline-block;
     padding: 1rem 2rem 1rem 2rem;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(180, 179, 179);
 }
 
 .creationDev>p{
-    background-color: rgba(255, 192, 203, 0.444);
+    background-color: rgba(80, 79, 79, 0.444);
 }
 
 .images>img{
     height: 25rem;
-    margin: 5px;
+    margin: 7px;
 }
