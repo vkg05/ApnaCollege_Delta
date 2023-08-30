@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(155, 244, 155);
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    margin-left: 20px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.images img {
+    width: 240px;
+    height: 320px;
+}

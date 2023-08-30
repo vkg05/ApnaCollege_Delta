@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h1>Product Catalog</h1>
+        <h1 id="product">Product Catalog</h1>
         <ul>
             <a href="#laptop">
                 <li>Electronics</li>
@@ -23,97 +23,50 @@
             </a>
         </ul>
     </header>
-    <div class="electronics">
-        <div class="laptop" id="laptop">
-            <h2>Electronics</h2>
-            <h3>Laptop</h3>
-            <p><b>Description: </b>High-performance laptop with the latest processor and ample storage.</p>
-            <p><b>Price: </b>$999.99</p>
+    <div class="container">
+        <div class="electronics">
+            <div class="laptop" id="laptop">
+                <h2>Electronics</h2>
+                <h3>Laptop</h3>
+                <p><b>Description: </b>High-performance laptop with the latest processor and ample storage.</p>
+                <p><b>Price: </b>$999.99</p>
+                <p><b>Availability: </b> In stock</p>
+                <img width="250px" src="https://qph.cf2.quoracdn.net/main-qimg-60a3ab10b6291e23a3502e72eb57cdde"
+                    alt="laptop image">
+                <br>
+                <a href="#">View Details</a>
+                <ul>
+                    <li><b>Brand: </b>XYZ Electronics</li>
+                    <li><b>Screen Size: </b>15.6 inches</li>
+                    <li><b>RAM: </b>8GB</li>
+                    <li><b>Storage: </b>512GB SSD</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="home" id="home">
+            <h2>Home</h2>
+            <h3>Table Lamp</h3>
+            <p><b>Description: </b>Modern and stylish table lamp to enhance your home decor.</p>
+            <p><b>Price: </b>$39.99</p>
             <p><b>Availability: </b> In stock</p>
-            <img width="250px" src="https://qph.cf2.quoracdn.net/main-qimg-60a3ab10b6291e23a3502e72eb57cdde"
-                alt="laptop image">
+            <img width="200px" src="https://www.pngmart.com/files/7/Ceramic-Lamp-PNG-File.png" alt="lamp image">
             <br>
             <a href="#">View Details</a>
             <ul>
-                <li><b>Brand: </b>XYZ Electronics</li>
-                <li><b>Screen Size: </b>15.6 inches</li>
-                <li><b>RAM: </b>8GB</li>
-                <li><b>Storage: </b>512GB SSD</li>
+                <li><b>Brand: </b>Home Essentials</li>
+                <li><b>Color: </b>White</li>
+                <li><b>Dimensions: </b>12 inches (height)</li>
+                <li><b>Material: </b>Ceramic, Metal</li>
             </ul>
         </div>
-        <div class="smartphone">
-            <h3>Smartphone</h3>
-            <p><b>Description: </b>Feature-rich smartphone with a high-resolution display and advanced camera.</p>
-            <p><b>Price: </b>$699.99</p>
-            <p><b>Availability: </b> Out of stock</p>
-            <img width="200px"
-                src="https://image.similarpng.com/very-thumbnail/2020/09/Iphone-xr-yellow-mobile-phone-on-transparent-background-PNG.png"
-                alt="mobile image">
-            <br>
-            <a href="#">View Details</a>
-            <ul>
-                <li><b>Brand: </b>ABC Mobile</li>
-                <li><b>Screen Size: </b>6.5 inches</li>
-                <li><b>RAM: </b>8GB</li>
-                <li><b>Storage: </b>512GB SSD</li>
-            </ul>
-        </div>
+    
     </div>
-    <div class="clothing" id="clothing">
-        <div class="t-shirt">
-            <h2>Clothing</h2>
-            <h3>T-shirt</h3>
-            <p><b>Description: </b>Casual and comfortable t-shirt made from premium quality cotton.</p>
-            <p><b>Price: </b>$19.99</p>
-            <p><b>Availability: </b> In stock</p>
-            <img width="250px"
-                src="https://e7.pngegg.com/pngimages/3/819/png-clipart-printed-t-shirt-polo-shirt-clothing-t-shirt-tshirt-fashion-thumbnail.png"
-                alt="laptop image">
-            <br>
-            <a href="#">View Details</a>
-            <ul>
-                <li><b>Brand: </b>Fashion Apparel</li>
-                <li><b>Color: </b>Red</li>
-                <li><b>Size: </b>S,M,L</li>
-                <li><b>Material: </b>100% Cotton</li>
-            </ul>
-        </div>
-        <div class="jeans">
-            <h3>Jeans</h3>
-            <p><b>Description: </b>Classic jeans with a slim fit and stylish design.</p>
-            <p><b>Price: </b>$49.99</p>
-            <p><b>Availability: </b> In stock</p>
-            <img width="200px"
-                src="https://e7.pngegg.com/pngimages/907/523/png-clipart-pepe-jeans-denim-mustang-pocket-men-s-jeans-thumbnail.png"
-                alt="jeans image">
-            <br>
-            <a href="#">View Details</a>
-            <ul>
-                <li><b>Brand: </b>Denim Co.</li>
-                <li><b>Color: </b>Blue</li>
-                <li><b>Size: </b>30,32,34</li>
-                <li><b>Material: </b>Denim</li>
-            </ul>
-        </div>
-
+    <div class="images">
+        <img src="images/pexels-marta-branco-1194713.jpg" alt="" class="oldImg">
+        <img src="images/pexels-pavel-danilyuk-5496461.jpg" alt="" class="oldImg">
+        <img src="images/pexels-pavel-danilyuk-5496464.jpg" alt="" class="oldImg">
     </div>
-    <div class="home" id="home">
-        <h2>Home</h2>
-        <h3>Table Lamp</h3>
-        <p><b>Description: </b>Modern and stylish table lamp to enhance your home decor.</p>
-        <p><b>Price: </b>$39.99</p>
-        <p><b>Availability: </b> In stock</p>
-        <img width="200px" src="https://www.pngmart.com/files/7/Ceramic-Lamp-PNG-File.png" alt="lamp image">
-        <br>
-        <a href="#">View Details</a>
-        <ul>
-            <li><b>Brand: </b>Home Essentials</li>
-            <li><b>Color: </b>White</li>
-            <li><b>Dimensions: </b>12 inches (height)</li>
-            <li><b>Material: </b>Ceramic, Metal</li>
-        </ul>
-    </div>
-
 
 
 
