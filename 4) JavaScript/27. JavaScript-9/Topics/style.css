@@ -27,3 +27,8 @@ header {
     width: 240px;
     height: 320px;
 }
+
+.green {
+    color: green;
+    text-decoration: underline wavy;
+}

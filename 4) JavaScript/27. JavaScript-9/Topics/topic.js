@@ -9,3 +9,15 @@
 // -----------------------------------------------------------
 
 // console.dir(document.querySelectorAll("div b"));
+
+
+
+let links = document.querySelectorAll(".links a");
+// for(let i=0; i<links.length; i++){
+//     links[i].style.color = "darkgreen";
+// } 
+// OR
+
+for(link of links){
+    link.style.color = "darkgreen"
+};
