@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+div {
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+}
